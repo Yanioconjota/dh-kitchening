@@ -1,0 +1,52 @@
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina	320 */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Custom, iPhone Retina 480 */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Extra Small Devices, Phones - Landscape 640 */
+
+@media only screen and (min-width : 640px) {
+
+}
+
+/* Small Devices, Tablets 768 */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops 992 */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Medium Devices, Desktops 1024 */
+@media only screen and (min-width : 1024px) {
+
+}
+
+/* Large Devices, Wide Screens 1200 */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/* Large Devices, Wide Screens 1366 */
+@media only screen and (min-width : 1366px) {
+
+}
+
+/* Large Devices, Wide Screens 1440 */
+@media only screen and (min-width : 1440px) {
+
+}
+
+/* Large Devices, Wide Screens 1679 */
+@media only screen and (min-width : 1679px) {
+
+}
