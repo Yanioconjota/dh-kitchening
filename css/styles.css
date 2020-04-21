@@ -164,18 +164,25 @@ ul li {
   background-color: red;
   display: block;
   float: left;
-  height: 200px;
+  height: 160px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  position: relative;
 }
 
 
 .main-footer ul {
   display: block;
-  margin: 0 auto;
+  position: absolute;
   width: 510px;
   box-sizing: border-box;
-  margin-top: 10%;
+  top: 0px;
+  bottom: 0px;
+  height: 14px;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
 }
 
 .main-footer ul li {
@@ -186,10 +193,10 @@ ul li {
   color: #fff;
   text-transform: uppercase;
   border-right: 1px solid #fff;
-  padding: 10px;
+  padding: 4px 10px;
   text-transform: uppercase;
+  box-sizing: border-box;
 }
-
 
 .main-footer ul li:last-child a {
   border-right: none;
