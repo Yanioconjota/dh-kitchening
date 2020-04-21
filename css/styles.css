@@ -12,7 +12,7 @@ body {
   overflow-y: scroll;
   font-family: 'Roboto', sans-serif;
   color: rgb(65, 65, 65);
-  font-size: 14px;
+  font-size: 13px;
   background-image: url('../images/bg-body.png');
   background-repeat: repeat;
   background-position: center;
@@ -59,12 +59,139 @@ ul li {
 
 /* Custom Classes */
 .container {
-  
+  width: 1100px;
 }
 
 .main-header {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin: 15px 0;
+}
+
+.main-header .logo {
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.main-nav {
+  width: 100%;
+  margin: auto;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #222;
+  padding: 8px 45px;
+}
+
+.main-nav ul li a {
+  color: #fff;
+}
+
+.banner {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.vip-products {
+  display: block;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+
+.product {
+  width: 33.33333333%;
+  float: left;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.product .more {
+  padding: 8px 12px;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #222;
+  display: inline-block;
+  margin: 15px 0;
+}
+
+.photo-container {
+  position: relative;
+}
+
+.photo-container .photo {
+  width: 100%;
+}
+
+.photo-container .zoom {
+  position: absolute;
+  width: 100%;
+  z-index: 12;
+  top: 40%;
+  left: 0;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+}
+
+.photo-container .special {
+  position: absolute;
+  z-index: 10;
+  right: 25px;
+}
+
+.main-footer {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: red;
+  display: block;
+  float: left;
+  height: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+.main-footer ul {
+  display: block;
+  margin: 0 auto;
+  width: 510px;
+  box-sizing: border-box;
+  margin-top: 10%;
+}
+
+.main-footer ul li {
+  display: inline;
+}
+
+.main-footer ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  border-right: 1px solid #fff;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+
+.main-footer ul li:last-child a {
+  border-right: none;
 }
 /* End Custom Classes */
